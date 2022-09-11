@@ -1,0 +1,3 @@
+templates/things that don't change go here
+
+ex- headers, footers

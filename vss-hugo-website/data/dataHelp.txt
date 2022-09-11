@@ -1,0 +1,5 @@
+website database
+
+static websites by nature don't have a database.
+
+data goes here such as JSON files

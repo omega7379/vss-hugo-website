@@ -1,0 +1,3 @@
+for more advanced HUGO
+
+defines data about content

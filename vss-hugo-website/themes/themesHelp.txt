@@ -1,0 +1,16 @@
+pre-built themes go here!
+
+https://themes.hugo.io
+
+when selecting templates, demo tries it out without downloading
+
+each theme is a github repo, read the documentation before using
+
+clone the repo into the themes folder
+
+once the theme is downloaded:
+newline ``theme = "name_of_repo_directory/folder"``
+
+to get up and running, open terminal ``hugo server``
+
+navigate to localhost

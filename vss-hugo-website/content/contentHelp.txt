@@ -1,0 +1,33 @@
+content of the website goes here
+
+to add a file
+terminal: ``hugo new [filename]``
+ex- hugo new a.md
+
+auto-populates with front-matter/meta-data
+
+to make a file within a new directory
+terminal: ``hugo new [directoryName]/[filename]``
+ex- hugo new dir1/b.md
+
+while the page is set to ``draft: true``
+to view the changes in browser, use the -D flag
+``hugo server -D``
+
+2 types of content in hugo
+single-pages ^ list-pages
+
+list-page, a page that lists other available pages
+by default the "homepage" is a list-page
+
+single-page, a page that displays the actual content
+
+list-pages are auto-made at the root of the content directory
+ex- localhost:port/dir1 (works) | localhost:port/dir1/dir2 (DNE)
+
+to make dir2 a list-page
+terminal: ``hugo new dir1/dir2/_index.md``
+
+to add content to a list-page, put it into a ``_index.md`` file
+
+in order to simply make content files you must use a theme
